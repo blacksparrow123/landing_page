@@ -1,0 +1,36 @@
+body {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    flex: 0 0 auto;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_links {
+    display: flex;
+}
